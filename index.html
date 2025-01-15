@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>28WebDesign</title>
+</head>
+<body>
+    <button class="back-to-top hidden">
+        <svg height="32px" width="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="#4831d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    </button>
+    <nav>
+        <div class="logo"><img src=""></div>
+        <div id="menu" class="side-menu">
+            <a href="javascript:void(0);" class="closebtn" onclick="closeMenu()"></a>
+            <a href="#home">Αρχική</a>
+            <a href="#about">Ποιοί Είμαστε</a>
+            <a href="#services">Υπηρεσίες</a>
+            <a href="#contact">Επικοινωνία</a>
+            <div class="info">
+                <a href="tel:306983935626" id="tel">
+                    <svg fill="#4831d4" height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M511.576,402.975c-3.495-36.288-45.168-65.404-49.7-68.45c-4.483-3.209-44.825-31.284-80.563-31.284 c-15.102,0-27.727,4.708-37.921,14.381l-0.974,1.05c-11.765,13.773-35.557,34.151-49.256,34.151c-0.917,0-1.7-0.105-2.411-0.337 c-7.754-5.701-46.081-34.235-71.453-59.617c-20.388-20.388-53.266-63.131-59.879-71.792c-3.447-11.116,16.969-37.357,34.11-52.178 l0.96-0.945C232.82,127.465,179.63,53.19,177.562,50.354C176.187,48.301,143.409,0,103.931,0C90.352,0,78.091,5.29,68.14,15.126 c-4.608,3.782-112.091,94.081-47.169,226.941c3.242,6.666,7.291,13.379,12.734,21.143c15.933,22.756,57.205,79.89,96.286,118.966 c37.104,37.109,95.193,79.356,118.446,95.79c7.979,5.646,14.902,9.826,21.797,13.188C298.686,504.991,327.392,512,355.553,512 c82.941,0,133.968-59.435,140.959-68.097C507.818,432.205,513.027,418.063,511.576,402.975z M482.202,430.572l-0.678,0.561 c-4.975,6.255-50.779,60.901-125.971,60.901h-0.019c-25.162,0-50.984-6.145-76.743-18.674c-5.916-2.874-11.97-6.45-19.061-11.464 c-22.842-16.148-79.871-57.549-115.911-93.598c-37.987-37.988-78.458-94-94.095-116.335c-4.846-6.904-8.394-12.763-11.178-18.483 C-18.683,116.357,70.217,38.718,81.199,29.653c6.914-6.799,14.348-10.099,22.732-10.099c24.189,0,49.619,30.09,57.592,41.989 c12.896,17.743,41.406,69.045,18.827,92.908c-2.13,1.843-52.049,45.436-38.441,75.507l1.127,1.891 c4.035,5.3,40.065,52.484,62.434,74.848c27.769,27.77,69.992,58.843,74.719,62.3l1.676,0.983 c3.452,1.595,7.257,2.397,11.307,2.397c28.758,0,62.687-39.334,64.052-40.938c6.054-5.739,14.157-8.642,24.089-8.642 c30.157,0,67.615,26.509,69.41,27.789c0.387,0.258,38.704,26.423,41.382,54.26C493.026,414.424,489.789,422.837,482.202,430.572z"></path> </g> </g> </g></svg>
+                    30 
+                </a>
+                <a href="mailto:ionthp@icloud.com" id="mail">
+                    <svg fill="#4831d4" height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M508.645,18.449c-2.929-2.704-7.133-3.51-10.826-2.085L6.715,204.446c-3.541,1.356-6.066,4.515-6.607,8.264 c-0.541,3.75,0.985,7.496,3.995,9.796l152.127,116.747c-0.004,0.116-0.575,0.224-0.575,0.342v83.592 c0,3.851,2.663,7.393,6.061,9.213c1.541,0.827,3.51,1.236,5.199,1.236c2.026,0,4.181-0.593,5.931-1.756l56.12-37.367 l130.369,99.669c1.848,1.413,4.099,2.149,6.365,2.149c1.087,0,2.186-0.169,3.248-0.516c3.27-1.066,5.811-3.672,6.786-6.974 L511.571,29.082C512.698,25.271,511.563,21.148,508.645,18.449z M170.506,321.508c-0.385,0.36-0.7,0.763-1.019,1.163 L31.659,217.272L456.525,54.557L170.506,321.508z M176.552,403.661v-48.454l33.852,25.887L176.552,403.661z M359.996,468.354 l-121.63-93.012c-1.263-1.77-2.975-3.029-4.883-3.733l-47.29-36.163L480.392,60.86L359.996,468.354z"></path> </g> </g> </g></svg>
+                   example@icloud.com
+                </a>
+                <a target="_blank" href="" id="address">
+                    <svg fill="#4831d4" height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M256,0C160.01,0,81.92,78.09,81.92,174.08c0,92.615,158.89,323.705,165.655,333.501c1.91,2.77,5.06,4.419,8.425,4.419 c3.365,0,6.515-1.649,8.425-4.419c6.765-9.796,165.655-240.886,165.655-333.501C430.08,78.09,351.99,0,256,0z M256,483.485 C222.72,433.771,102.4,248.82,102.4,174.08c0-84.695,68.905-153.6,153.6-153.6c84.695,0,153.6,68.905,153.6,153.6 C409.6,248.8,289.275,433.766,256,483.485z"></path> </g> </g> <g> <g> <path d="M256,102.4c-39.525,0-71.68,32.155-71.68,71.68c0,39.526,32.155,71.68,71.68,71.68c39.525,0,71.68-32.154,71.68-71.68 C327.68,134.555,295.525,102.4,256,102.4z M256,225.28c-28.23,0-51.2-22.97-51.2-51.2c0-28.229,22.97-51.2,51.2-51.2 c28.23,0,51.2,22.971,51.2,51.2C307.2,202.31,284.23,225.28,256,225.28z"></path> </g> </g> </g></svg>
+                    Σπάρτη 231 00, Ελλάδα                                  
+                </a>
+            </div>
+        </div>
+        <span class="openbtn" onclick="openMenu()">
+            <button aria-label="Menu" class="menuToggle" aria-expanded="false" aria-haspopup="true">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </span>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>Δημιουργούμε το ψηφιακό μέλλον της επιχείρησής σας</h1>
+            <p>
+                Στην 28WebDesign, πιστεύουμε ότι κάθε ιδέα αξίζει να μετατραπεί σε μια <strong>μοναδική ψηφιακή εμπειρία</strong>. Δημιουργούμε σύγχρονες 
+                <strong>ιστοσελίδες</strong>, σχεδιάζουμε <strong>στρατηγικές για τα social media</strong> και παρέχουμε ολοκληρωμένες λύσεις <strong>(re)branding</strong> 
+                που ενισχύουν την εικόνα της επιχείρησής σας online. Με οδηγό την καινοτομία και την προσοχή στη λεπτομέρεια, σας βοηθάμε να συνδεθείτε με το κοινό σας και 
+                να ξεχωρίσετε σε κάθε ψηφιακή πλατφόρμα.
+            </p>
+        </section>
+        <section id="about">
+            <h1>Ποιοί είμαστε</h1>
+            <p>Δεν είμαστε απλώς ένα web development agency — είμαστε <strong>στρατηγικοί συνεργάτες και ψηφιακοί καινοτόμοι</strong>.
+                Με πάθος για τη δημιουργία μοναδικών διαδικτυακών εμπειριών, εστιάζουμε στην παροχή λύσεων που αντανακλούν την ταυτότητα της επιχείρησής σας 
+                και κεντρίζουν το ενδιαφέρον του κοινού σας. Η προσέγγισή μας συνδυάζει τη δημιουργικότητα με στρατηγικές βασισμένες σε δεδομένα, εξασφαλίζοντας 
+                <strong>ουσιαστικά αποτελέσματα για την επιχείρησή σας</strong>.
+            </p>
+        </section>
+        <section id="services">
+            <h1>Υπηρεσίες που παρέχουμε</h1>
+            <p>Ανακαλύψτε τις εξατομικευμένες ψηφιακές λύσεις μας που ανταποκρίνονται στις ανάγκες της επιχείρησής σας:<br><br>
+                • <strong>Κατασκευή Ιστοσελίδων</strong>: Δημιουργούμε εξατομικευμένες, responsive ιστοσελίδες που αντικατοπτρίζουν την ταυτότητα της επιχείρησής σας και προσφέρουν άριστη εμπειρία χρήστη σε όλες τις συσκευές.<br>
+                • <strong>Landing Pages</strong>: Σχεδιάζουμε δυναμικές σελίδες προορισμού που αιχμαλωτίζουν το ενδιαφέρον του κοινού σας και οδηγούν σε αποτελέσματα.<br>
+                • <strong>Βελτιστοποίηση για Μηχανές Αναζήτησης (SEO)</strong>: Αυξήστε την ορατότητα της ιστοσελίδας σας με στοχευμένες SEO στρατηγικές που προσελκύουν οργανική επισκεψιμότητα και βελτιώνουν την κατάταξή σας.<br>
+                • <strong>Φιλοξενία Ιστοσελίδων</strong>: Αξιόπιστες και ασφαλείς υπηρεσίες hosting που διασφαλίζουν ότι η ιστοσελίδα σας είναι πάντα γρήγορη, ασφαλής και προσβάσιμη.<br>
+                • <strong>Digital Marketing</strong>: Από καμπάνιες στα social media μέχρι email marketing, εφαρμόζουμε αποτελεσματικές στρατηγικές για την προώθηση της επιχείρησής σας και την προσέγγιση του κοινού σας.<br>
+                • <strong>Copywriting</strong>: Δημιουργούμε ελκυστικό περιεχόμενο που αποτυπώνει τη φωνή του brand σας και κεντρίζει το ενδιαφέρον του κοινού σας, διασφαλίζοντας ότι το μήνυμά σας ακούγεται δυνατά.
+            </p>
+        </section>
+        <section id="contact">
+            <h1>Πείτε μας ένα γειά</h1>
+            <p>Αν θέλετε να συνεργαστούμε, να κάνετε μια ερώτηση ή απλώς να μας πείτε ένα γεια, μη διστάσετε να επικοινωνήσετε μαζί μας μέσω της παρακάτω φόρμας!</p>
+            <form action="https://formspree.io/f/mzzzyakl" method="POST" class="contact-form">
+                <label for="name">Το όνομα σας*</label>
+                <input type="text" id="name" name="name" placeholder="Εισάγετε το όνομα σας" required>
+                <label for="email">Το email σας*</label>
+                <input type="email" id="email" name="email" placeholder="Εισάγετε το email σας" required>
+                <label for="message">Το μήνυμα σας*</label>
+                <textarea id="message" name="message" placeholder="Γράψτε το μήνυμα σας" rows="2" required></textarea>
+                <button type="submit" class="submit-button">Αποστολή</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-middle">
+                <div class="footer-middle-left">
+                    <p class="footer-text">Πείτε μας ένα γειά,</p>
+                    <a href="mailto:ionthp@icloud.com">example@icloud.com</a>
+                    <p class="footer-text">ή καλέστε μας στο</p>
+                    <a href="tel:306983935626">30</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-icons">
+                    <a href="" target="_blank">LinkedIn</a>
+                    <a href="https://www.github.com/ioannito" target="_blank">GitHub</a>
+                </div>
+                <p>Designed & Developed by Ιωάννα Μ. Θεοφιλάκου</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+    <!-- Scroll to Top Button -->
+
+    <script>
+        const showOnPx = 700;
+        const backToTopButton = document.querySelector(".back-to-top");
+
+        const scrollContainer = () => {
+        return document.documentElement || document.body;
+        };
+
+        document.addEventListener("scroll", () => {
+        if (scrollContainer().scrollTop > showOnPx) {
+            backToTopButton.classList.remove("hidden")
+        } else {
+            backToTopButton.classList.add("hidden")
+        }
+
+        let footerElement = document.getElementById('footer');
+        let footerElementRect = footerElement.getBoundingClientRect();
+        let backToTopButtonPositionBottom = backToTopButton.offsetTop + backToTopButton.offsetHeight;
+
+        if (footerElementRect.y < backToTopButtonPositionBottom) {
+            let diffheight = backToTopButtonPositionBottom - footerElementRect.y;
+            let style = window.getComputedStyle(backToTopButton);
+            let addBottom = parseInt(style.getPropertyValue('bottom')) + diffheight;
+            backToTopButton.style.bottom = addBottom + 'px';
+        } else {
+            backToTopButton.style.bottom = '';
+        }
+        })
+
+        const goToTop = () => {
+            document.body.scrollIntoView();
+        };
+
+        backToTopButton.addEventListener("click", goToTop);
+    </script>
+
+</body>
+</html>
